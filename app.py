@@ -14,7 +14,7 @@ app.config['MYSQL_DATABASE_PASSWORD'] = 'Passw0rd'
 app.config['MYSQL_DATABASE_DB'] = 'employee_db'
 app.config['MYSQL_DATABASE_HOST'] = mysql_database_host
 mysql.init_app(app)
-
+# Test Line 2 for GitHub
 conn = mysql.connect()
 
 cursor = conn.cursor()
